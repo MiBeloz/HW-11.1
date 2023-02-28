@@ -8,7 +8,7 @@ int main() {
 	setlocale(LC_ALL, "ru");
 	std::cout << "Простое приветствие :)\n" << std::endl;
 
-	Greeter greeter;
+	GreeterLibraryStatic::Greeter greeter;
 	std::string name;
 
 	std::cout << "Введите имя: ";
